@@ -1,0 +1,21 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href={{url_for('static', filename = 'styles.css')}}>
+</head>
+<body background= "{{url_for('static', filename = 'background.jpg') }}">
+
+<ul>
+	<li><a href= "{{url_for('home_page')}}">Main</a></li>
+	<li><a href= "{{url_for('about_me_page')}}">About me</a></li>
+	<li><a href= "{{url_for('contact_me_page')}}">Contact me</a></li>
+</ul>
+<font size="4" color="white">you can contact me at:</font>
+
+<font size="3" color="white">email: yasmeensaadi99@gmail.com <br> facebook: yasmeen-saadi@nana10.co.il</font>
+
+
+</body>
+
+
+</html>
